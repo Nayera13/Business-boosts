@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b1714">
+<meta name="description" content="Business Boosts — Where MENA Business Gets Done. EOR, HR, Legal and IT services in Egypt and MENA.">
+<title>Business Boosts | Where MENA Business Gets Done</title>
+<style>
+:root{
+  --bg:#f6f7f3;
+  --ink:#10201c;
+  --muted:#68736f;
+  --green:#8fd3bf;
+  --deep:#0b1714;
+  --white:#fff;
+  --line:#e2e8e4;
+}
+*{box-sizing:border-box}
+html{
+  scroll-behavior:smooth;
+}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  line-height:1.5;
+}
+a{
+  text-decoration:none;
+  color:inherit;
+}
+.wrap{
+  width:min(100% - 32px,560px);
+  margin:auto;
+}
+/* HERO */
+.hero{
+  min-height:100svh;
+  background:linear-gradient(155deg,#0b1714,#12332b 62%,#214d41);
+  color:#fff;
+  padding:28px 0 34px;
+  display:flex;
+  align-items:center;
+}
+.hero .wrap{
+  width:min(100% - 36px,560px);
+}
+.logo{
+  display:block;
+  width:min(72%,290px);
+  height:auto;
+  margin:0 auto 34px;
+  filter:brightness(0) invert(1);
+}
+.eyebrow{
+  text-transform:uppercase;
+  letter-spacing:.18em;
+  font-size:11px;
+  font-weight:700;
+  opacity:.72;
+  text-align:center;
+}
+.hero h1{
+  font-size:clamp(34px,10vw,56px);
+  line-height:1.02;
+  letter-spacing:-.045em;
+  text-align:center;
+  margin:12px 0 16px;
+}
+.hero p{
+  font-size:17px;
+  line-height:1.55;
+  text-align:center;
+  color:#d9e5e1;
+  max-width:430px;
+  margin:0 auto 28px;
+}
+/* BUTTONS */
+.buttons{
+  display:grid;
+  gap:11px;
+}
+.btn{
+  min-height:54px;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:750;
+  font-size:15px;
+  padding:0 18px;
+  border:1px solid rgba(255,255,255,.14);
+  transition:.2s ease;
+}
+.btn:active{
+  transform:scale(.98);
+}
+.btn-primary{
+  background:var(--green);
+  color:var(--deep);
+}
+.btn-secondary{
+  background:rgba(255,255,255,.07);
+  color:#fff;
+}
+/* SECTIONS */
+.section{
+  padding:58px 0;
+}
+.section h2{
+  font-size:29px;
+  line-height:1.1;
+  letter-spacing:-.03em;
+  margin:0 0 12px;
+}
+.lead{
+  color:var(--muted);
+  margin:0 0 25px;
+}
+/* SERVICE CARDS */
+.cards{
+  display:grid;
+  gap:13px;
+}
+.card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:22px;
+  box-shadow:0 8px 25px rgba(16,32,28,.04);
+}
+.icon{
+  width:42px;
+  height:42px;
+  border-radius:13px;
+  background:#e2f4ee;
+  display:grid;
+  place-items:center;
+  font-size:20px;
+  margin-bottom:14px;
+}
+.card h3{
+  margin:0 0 6px;
+  font-size:18px;
+}
+.card p{
+  margin:0;
+  color:var(--muted);
+  font-size:14px;
+}
+/* WHY */
+.why{
+  background:#e9f4ef;
+}
+.why ul{
+  list-style:none;
+  padding:0;
+  margin:22px 0 0;
+  display:grid;
+  gap:12px;
+}
+.why li{
+  background:#fff;
+  border-radius:16px;
+  padding:15px 16px;
+  font-weight:650;
+}
+/* CTA */
+.cta{
+  background:var(--deep);
+  color:#fff;
+  border-radius:28px;
+  padding:30px 22px;
+  text-align:center;
+  margin:0 0 38px;
+}
+.cta h2{
+  margin-bottom:10px;
+}
+.cta p{
+  color:#cbd8d4;
+  margin:0 auto 22px;
+}
+.contact{
+  display:grid;
+  gap:10px;
+}
+.contact a{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:15px;
+  padding:14px;
+  text-align:center;
+  font-weight:700;
+}
+/* FOOTER */
+.footer{
+  text-align:center;
+  padding:0 0 35px;
+  color:#7a8581;
+  font-size:12px;
+}
+.footer a{
+  color:#41544e;
+  font-weight:700;
+}
+.tiny{
+  font-size:12px;
+  color:#8a9691;
+  margin-top:18px;
+}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="wrap">
+<img
+class="logo"
+src="https://www.bboosts.com/hs-fs/hubfs/BBoost%20Logo%20design.png?height=723&name=BBoost+Logo+design.png&width=2000"
+alt="Business Boosts">
+<div class="eyebrow">
+Where MENA Business Gets Done
+</div>
+<h1>
+Build in Egypt.<br>
+Scale across MENA.
+</h1>
+<p>
+Making Egypt the easiest place to build a team —
+with EOR, HR, Legal &amp; IT support under one roof.
+</p>
+<div class="buttons">
+<a
+class="btn btn-primary"
+href="https://wa.me/201006509844?text=Hello%20Business%20Boosts%2C%20I%20met%20your%20team%20at%20the%20HR%20Professionals%20Seminar%20and%20would%20like%20to%20learn%20more%20about%20your%20services."
+target="_blank"
+rel="noopener">
+💬 Talk to Business Boosts
+</a>
+<a
+class="btn btn-secondary"
+href="https://www.bboosts.com/"
+target="_blank"
+rel="noopener">
+🌐 Visit Our Website
+</a>
+<a
+class="btn btn-secondary"
+href="https://www.linkedin.com/company/business-boosts-eg/"
+target="_blank"
+rel="noopener">
+in&nbsp; Follow us on LinkedIn
+</a>
+<a
+class="btn btn-secondary"
+href="business-boosts.vcf"
+download="Business-Boosts.vcf">
+📇 Save Contact
+</a>
+</div>
+</div>
+</header>
+<main>
+<section class="section">
+<div class="wrap">
+<h2>
+One Roof. Three Core Services.
+</h2>
+<p class="lead">
+We handle the operations; you focus on the expansion.
+</p>
+<div class="cards">
+<article class="card">
+<div class="icon">👥</div>
+<h3>
+EOR &amp; HR Solutions
+</h3>
+<p>
+Employer of Record, payroll, onboarding, social insurance,
+HR compliance and workforce support in Egypt.
+</p>
+</article>
+<article class="card">
+<div class="icon">⚖️</div>
+<h3>
+Legal &amp; Compliance
+</h3>
+<p>
+Practical support for employment, corporate and operational
+compliance so your business can scale with confidence.
+</p>
+</article>
+<article class="card">
+<div class="icon">💻</div>
+<h3>
+IT Solutions
+</h3>
+<p>
+Technology and infrastructure support that helps international
+teams operate smoothly in Egypt.
+</p>
+</article>
+</div>
+</div>
+</section>
+<section class="section why">
+<div class="wrap">
+<h2>
+Why Business Boosts?
+</h2>
+<p class="lead">
+Your operational hub in Cairo for expansion into Egypt and MENA.
+</p>
+<ul>
+<li>
+✓ One partner instead of multiple vendors
+</li>
+<li>
+✓ Local expertise with regional perspective
+</li>
+<li>
+✓ Faster setup, compliant operations
+</li>
+<li>
+✓ Built for international &amp; MENA businesses
+</li>
+</ul>
+</div>
+</section>
+<section class="section">
+<div class="wrap">
+<div class="cta">
+<h2>
+Let's Talk Business.
+</h2>
+<p>
+Meet Business Boosts at the HR Professionals Seminar
+or reach out directly to discuss your next move in Egypt.
+</p>
+<a
+class="btn btn-primary"
+href="https://wa.me/201006509844?text=Hello%20Business%20Boosts%2C%20I%20met%20your%20team%20at%20the%20HR%20Professionals%20Seminar%20and%20would%20like%20to%20learn%20more%20about%20your%20services."
+target="_blank"
+rel="noopener">
+Start a WhatsApp Conversation
+</a>
+</div>
+<div class="contact">
+<a
+href="https://www.bboosts.com/"
+target="_blank"
+rel="noopener">
+bboosts.com
+</a>
+<a
+href="https://www.linkedin.com/company/business-boosts-eg/"
+target="_blank"
+rel="noopener">
+Business Boosts on LinkedIn
+</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="wrap">
+Business Boosts for Corporate Solutions<br>
+<a href="https://www.bboosts.com/">
+Where MENA Business Gets Done
+</a>
+<div class="tiny">
+© 2026 Business Boosts. All rights reserved.
+</div>
+</div>
+</footer>
+</body>
+</html>
